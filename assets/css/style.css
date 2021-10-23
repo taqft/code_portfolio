@@ -22,7 +22,9 @@ h1 {
     font-size: 200%;
 }
 
-nav, nav ul, nav li {
+nav,
+nav ul,
+nav li {
     display: flex;
 }
 
