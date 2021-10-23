@@ -1,0 +1,46 @@
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293D;
+    color: #fff;
+}
+
+/* Change font size of headings */
+h1 {
+    font-size: 200%;
+}
+
+nav,
+nav ul,
+nav li {
+    display: flex;
+}
+
+nav ul {
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav li {
+    flex-direction: row;
+    padding: 0 10px 0;
+}
+
+nav a {
+    color: powderblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
