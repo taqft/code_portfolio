@@ -13,12 +13,16 @@ header {
     align-items: center;
     padding: 1%;
     background-color: #13293D;
-    color: #fafffd;
+    color: #fffffd;
 }
 
-/* Change font size of headings */
+/* Change font size of headings after reset */
 h1 {
     font-size: 200%;
+}
+
+h3 {
+    font-size: 120%;
 }
 
 .splash {
@@ -38,9 +42,9 @@ h1 {
     margin-right: 75px;
     padding: 0.1em 0.5em 0.1em;
     height: 1.5em;
-    border: 4px solid #fff;
+    border: 4px solid #fffffd;
     border-radius: 10px;
-    color: #fafffd;
+    color: #fffffd;
     background-color: #13293D;
 }
 
@@ -50,12 +54,12 @@ h1 {
 }
 
 .section-header {
-    width:20%;
+    width: 20%;
     align-items: flex-end;
     padding-right: 15px;
-    border-right: 6px solid #CEEAF5;
+    border-right: 6px solid lightseagreen;
     margin: 25px 0;
-    color: lightseagreen;
+    color: #13293D;
 }
 
 .section-header h1 {
@@ -65,7 +69,7 @@ h1 {
 .section-text {
     width: 80%;
     justify-content: flex-end;
-    padding-left: 15px;
+    padding: 0 15px;
     margin: 25px 0;
 }
 
@@ -77,8 +81,47 @@ h1 {
     margin: 25px 0;
 }
 
-.section-contact h2, a {
+.section-contact h2,
+a {
     margin-right: 25px;
+}
+
+.section-work {
+    display: flex;
+    width: 80%;
+    padding: 0 15px;
+    margin: 25px 0;
+}
+
+.work-container {
+    flex-grow: 1;
+}
+
+.flex-spotlight {
+    background-image: url("../images/desert-splash.jpg");
+    background-size: cover;
+    height: 600px;
+    border: 6px solid #13293D;
+}
+
+.flex-item {
+    background-image: url("../images/desert-splash.jpg");
+    background-size: cover;
+    margin: 10px 0;
+    width: 47%;
+    height: 200px;
+    border: 6px solid #13293D;
+}
+
+.flex-text {
+    color: #fffffd;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 nav,
@@ -98,7 +141,7 @@ nav li {
 }
 
 nav a {
-    color: #fafffd;
+    color: #fffffd;
     font-size: 1.5em;
     text-decoration: none;
 }
