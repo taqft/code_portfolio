@@ -14,12 +14,59 @@ header {
     align-items: center;
     padding: 1%;
     background-color: #13293D;
-    color: #fff;
+    color: #fafffd;
 }
 
 /* Change font size of headings */
 h1 {
     font-size: 200%;
+}
+
+.splash {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2%;
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/circuit-tiling-85.jpg");
+    background-repeat: repeat;
+}
+
+.splash-text {
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+    padding: 0.1em 0.5em 0.1em;
+    height: 1.5em;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    color: #fafffd;
+    background-color: #13293D;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.about-me-header {
+    width:20%;
+    align-items: flex-end;
+    padding-right: 15px;
+    border-right: 6px solid #CEEAF5;
+    margin: 25px 0;
+}
+
+.about-me-header h1 {
+    text-align: right;
+}
+
+.about-me-text {
+    flex-grow: 4;
+    justify-content: flex-end;
+    padding-left: 15px;
+    margin: 25px 0;
 }
 
 nav,
@@ -35,12 +82,11 @@ nav ul {
 
 nav li {
     flex-direction: row;
-    padding: 0 10px 0;
+    padding: 0 12px 0;
 }
 
 nav a {
-    color: powderblue;
+    color: #fafffd;
     font-size: 1.5em;
-    font-weight: bold;
     text-decoration: underline;
 }
