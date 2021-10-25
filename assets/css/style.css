@@ -42,9 +42,9 @@ h3 {
     margin-right: 75px;
     padding: 0.1em 0.5em 0.1em;
     height: 1.5em;
-    border: 4px solid #fffffd;
+    border: 4px solid #C0E5ED;
     border-radius: 10px;
-    color: #fffffd;
+    color: #d6f8ff;
     background-color: #13293D;
 }
 
@@ -57,7 +57,7 @@ h3 {
     width: 20%;
     align-items: flex-end;
     padding-right: 15px;
-    border-right: 6px solid lightseagreen;
+    border-right: 6px solid #C0E5ED;
     margin: 25px 0;
     color: #13293D;
 }
@@ -97,24 +97,73 @@ a {
     flex-grow: 1;
 }
 
+.flex-spotlight-parent {
+    height: 600px;
+    border: 6px solid #C0E5ED;
+    overflow: hidden;
+}
+
 .flex-spotlight {
     background-image: url("../images/desert-splash.jpg");
     background-size: cover;
-    height: 600px;
-    border: 6px solid #13293D;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.flex-item-parent {
+    height: 200px;
+    width: 47%;
+    border: 6px solid #C0E5ED;
+    overflow: hidden;
+    margin: 10px 0;
 }
 
 .flex-item {
     background-image: url("../images/desert-splash.jpg");
     background-size: cover;
-    margin: 10px 0;
-    width: 47%;
-    height: 200px;
-    border: 6px solid #13293D;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.flex-spotlight-parent:hover .flex-spotlight,
+.flex-spotlight-parent:hover .flex-spotlight-text,
+.flex-item-parent:hover .flex-item,
+.flex-item-parent:hover .flex-text {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.flex-spotlight-text, .flex-text {
+    color: #fffffd;
+    position: relative;
+    width: 110px;
+    border: 5px solid #C0E5ED;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #13293D;
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.flex-spotlight-text {
+    left: 60px;
+    top: 500px;
 }
 
 .flex-text {
-    color: #fffffd;
+    left: 37px;
+    top: 120px;
 }
 
 .item-container {
