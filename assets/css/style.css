@@ -5,15 +5,23 @@ body {
     font-family: aktiv-grotesk, sans-serif;
     font-style: normal;
     font-weight: 200;
+    justify-content: space-around;
 }
 
-header {
+header, footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
     background-color: #13293D;
     color: #fffffd;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* Change font size of headings after reset */
@@ -29,7 +37,6 @@ h3 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 2%;
     width: 100%;
     height: 200px;
     background-image: url("../images/circuit-tiling-85.jpg");
@@ -51,6 +58,8 @@ h3 {
 .container {
     display: flex;
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .section-header {
@@ -67,34 +76,29 @@ h3 {
 }
 
 .section-text {
-    width: 80%;
-    justify-content: flex-end;
-    padding: 0 15px;
-    margin: 25px 0;
-}
-
-.section-contact {
-    width: 80%;
     display: flex;
-    align-items: center;
-    padding-left: 15px;
-    margin: 25px 0;
+    flex-direction: column;
+    width: 80%;
 }
 
-.section-contact h2,
-a {
-    margin-right: 25px;
+.p1 {
+    margin: 20px 0 0 20px;
+}
+
+.p2 {
+    margin: 0 0 10px 20px;
 }
 
 .section-work {
     display: flex;
     width: 80%;
-    padding: 0 15px;
-    margin: 25px 0;
 }
 
 .work-container {
-    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 10px 0;
 }
 
 .flex-spotlight-parent {
@@ -102,8 +106,10 @@ a {
     justify-content: center;
     align-items: center;
     height: 600px;
+    width: auto;
     border: 6px solid #C0E5ED;
     overflow: hidden;
+    margin: 0 20px;
 }
 
 .flex-spotlight {
@@ -111,21 +117,22 @@ a {
     background-size: cover;
     height: 100%;
     width: 100%;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .flex-item-parent {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 47%;
     border: 6px solid #C0E5ED;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 10px 5px;
 }
 
 .flex-item {
@@ -133,10 +140,10 @@ a {
     background-size: cover;
     height: 100%;
     width: 100%;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .flex-spotlight-parent:hover .flex-spotlight,
@@ -151,26 +158,49 @@ a {
 
 .flex-spotlight-text, .flex-text {
     color: #fffffd;
-    position: relative;
+    position: absolute;
     width: 110px;
-    border: 5px solid #C0E5ED;
+    border: 4px solid #C0E5ED;
     border-radius: 3px;
-    padding-left: 5px;
     background-color: #13293D;
     opacity: 0;
-    position: absolute;
     z-index: 1;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.flex-spotlight-text,
+.flex-text {
+    color: #fffffd;
+    position: absolute;
+    width: 120px;
+    border: 4px solid #C0E5ED;
+    border-radius: 3px;
+    background-color: #13293D;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.flex-spotlight-text h3,
+.flex-spotlight-text p,
+.flex-text h3,
+.flex-text p {
+    margin-left: 5px;
 }
 
 .item-container {
     display: flex;
+    flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 15px;
 }
 
 nav,
@@ -181,12 +211,16 @@ nav li {
 
 nav ul {
     justify-content: space-between;
-    min-width: 300px;
+    margin: 10px 15px;
 }
 
 nav li {
     flex-direction: row;
-    padding: 0 12px 0;
+    margin: 0 15px;
+}
+
+header h1 {
+    margin: 0 15px;
 }
 
 nav a {
@@ -195,14 +229,28 @@ nav a {
     text-decoration: none;
 }
 
-a:hover {
+@media screen and (max-width: 711px) {
+    nav ul, nav li, header, footer {
+        flex-direction: column;
+        min-width: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+a:hover, h2:hover {
     color: lightseagreen;
+}
+
+.socials {
+    font-size: 18px;
+    padding: 0 20px;
 }
 
 .fa {
     padding: 5px;
-    font-size: 30px;
-    width: 20px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -213,21 +261,21 @@ a:hover {
 }
 
 .fa-linkedin {
-    color: #000005;
+    color: #fffffd;
 }
 
 .fa-github {
-    color: #000005;
+    color: #fffffd;
 }
 
 .fa-youtube {
-    color: #000005;
+    color: #fffffd;
 }
 
 .fa-instagram {
-    color: #000005;
+    color: #fffffd;
 }
 
 .fa-stack-overflow {
-    color: #000005;
+    color: #fffffd;
 }
