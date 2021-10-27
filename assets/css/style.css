@@ -8,7 +8,8 @@ body {
     justify-content: space-around;
 }
 
-header, footer {
+header,
+footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -46,7 +47,7 @@ h3 {
 .splash-text {
     display: flex;
     align-items: center;
-    margin-right: 75px;
+    margin: 0 75px 5px 0;
     padding: 0.1em 0.5em 0.1em;
     height: 1.5em;
     border: 4px solid #C0E5ED;
@@ -156,7 +157,8 @@ h3 {
     opacity: 1;
 }
 
-.flex-spotlight-text, .flex-text {
+.flex-spotlight-text,
+.flex-text {
     color: #fffffd;
     position: absolute;
     width: 110px;
@@ -219,8 +221,9 @@ nav li {
     margin: 0 15px;
 }
 
-header h1 {
-    margin: 0 15px;
+header h1,
+footer h1 {
+    margin: 10px 15px;
 }
 
 nav a {
@@ -229,17 +232,13 @@ nav a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 711px) {
-    nav ul, nav li, header, footer {
-        flex-direction: column;
-        min-width: inherit;
-        align-items: center;
-        justify-content: space-between;
-    }
-
+footer a {
+    color: #fffffd;
+    text-decoration: none;
 }
 
-a:hover, h2:hover {
+a:hover,
+h2:hover {
     color: lightseagreen;
 }
 
@@ -278,4 +277,18 @@ a:hover, h2:hover {
 
 .fa-stack-overflow {
     color: #fffffd;
+}
+
+@media screen and (max-width: 711px) {
+
+    nav ul,
+    nav li,
+    header,
+    footer {
+        flex-direction: column;
+        min-width: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+
 }
