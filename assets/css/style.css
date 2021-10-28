@@ -93,7 +93,7 @@ h3 {
     width: 20%;
     align-items: flex-end;
     border-right: 6px solid #C0E5ED;
-    margin: 25px 0;
+    margin: 25px 0 15px;
     color: #13293D;
 }
 
@@ -125,7 +125,7 @@ h3 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .flex-spotlight-parent {
