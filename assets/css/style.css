@@ -329,10 +329,14 @@ h2:hover {
         justify-content: flex-start;
     }
 
+    footer h2 {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
-    h1 {
+    .section-header h1 {
         font-size: 150%;
     }
 }
