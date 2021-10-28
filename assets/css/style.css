@@ -47,8 +47,8 @@ h3 {
 .splash img {
     border-radius: 50%;
     width: 30%;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 120px;
+    min-height: 120px;
     max-width: 180px;
     max-height: 180px;
     margin: 10px;
@@ -125,7 +125,7 @@ h3 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
 .flex-spotlight-parent {
