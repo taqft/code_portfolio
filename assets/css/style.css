@@ -37,11 +37,37 @@ h3 {
 .splash {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     height: 200px;
     background-image: url("../images/circuit-tiling-85.jpg");
     background-repeat: repeat;
+}
+
+.splash img {
+    border-radius: 50%;
+    width: 30%;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 10px;
+}
+
+.splash-left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.splash-right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .splash-text {
@@ -66,7 +92,6 @@ h3 {
 .section-header {
     width: 20%;
     align-items: flex-end;
-    padding-right: 15px;
     border-right: 6px solid #C0E5ED;
     margin: 25px 0;
     color: #13293D;
@@ -74,6 +99,7 @@ h3 {
 
 .section-header h1 {
     text-align: right;
+    margin: 0 15px 0 5px;
 }
 
 .section-text {
@@ -83,11 +109,11 @@ h3 {
 }
 
 .p1 {
-    margin: 20px 0 0 20px;
+    margin: 20px 5px 0 20px;
 }
 
 .p2 {
-    margin: 0 0 10px 20px;
+    margin: 0 5px 10px 20px;
 }
 
 .section-work {
@@ -128,8 +154,8 @@ h3 {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 200px;
     border: 6px solid #C0E5ED;
     overflow: hidden;
@@ -291,4 +317,28 @@ h2:hover {
         justify-content: space-between;
     }
 
+    .splash-text {
+        font-size: 120%;
+        margin: 0 0 5px 5px;
+    }
+
+    .splash-right {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section-header {
+        border-right: none !important;
+    }
 }
