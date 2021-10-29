@@ -97,6 +97,10 @@ h3 {
     color: #13293D;
 }
 
+.section-header:nth-of-type() {
+    margin: 25px 0 35px;
+}
+
 .section-header h1 {
     text-align: right;
     margin: 0 15px 0 5px;
