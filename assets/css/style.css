@@ -8,7 +8,7 @@ body {
     justify-content: space-around;
 }
 
-header,
+.page-header,
 footer {
     width: 100%;
     display: flex;
@@ -16,6 +16,11 @@ footer {
     align-items: center;
     background-color: #13293D;
     color: #fffffd;
+}
+
+.page-header h1,
+footer h1 {
+    margin: 10px 15px;
 }
 
 .wrapper {
@@ -95,10 +100,6 @@ h3 {
     border-right: 6px solid #C0E5ED;
     margin: 25px 0 15px;
     color: #13293D;
-}
-
-.section-header:nth-of-type() {
-    margin: 25px 0 35px;
 }
 
 .section-header h1 {
@@ -249,11 +250,6 @@ nav ul {
 nav li {
     flex-direction: row;
     margin: 0 15px;
-}
-
-header h1,
-footer h1 {
-    margin: 10px 15px;
 }
 
 nav a {
