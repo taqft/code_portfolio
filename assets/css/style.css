@@ -193,6 +193,14 @@ h3 {
     transition: all .8s ease-in-out;
 }
 
+#weather_card {
+    background-image: url("../images/weather-preview.png");
+}
+
+#planner_card {
+    background-image: url("../images/planner-preview.png");
+}
+
 .flex-spotlight-parent:hover .flex-spotlight,
 .flex-item-parent:hover .flex-item {
     transform: scale(1.1);
@@ -346,6 +354,12 @@ h2:hover {
 
     footer h2 {
         margin-bottom: 10px;
+    }
+
+    .flex-item-parent {
+        flex: auto;
+        width: 100%;
+        margin: 5px 5px 0 5px;
     }
 
 }
