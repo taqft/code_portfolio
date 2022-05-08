@@ -51,6 +51,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Here is where we began... Take a look and see how far we've come!
+
 [![Product Name Screen Shot][product-screenshot]](https://theresaqueryforthat.github.io/code_portfolio/)
 
 View the commit history to see the changes made across time. Expect to see new versions and projects added as time goes on!
