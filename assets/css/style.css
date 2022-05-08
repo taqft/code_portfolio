@@ -193,6 +193,14 @@ h3 {
     transition: all .8s ease-in-out;
 }
 
+#blog_card {
+    background-image: url("../images/blog-preview.png");
+}
+
+#cms_card {
+    background-image: url("../images/ems-preview.png");
+}
+
 #weather_card {
     background-image: url("../images/weather-preview.png");
 }
