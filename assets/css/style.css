@@ -38,6 +38,11 @@ footer h1 {
     margin: 10px 15px;
 }
 
+footer {
+    justify-content: start;
+    column-gap: 15px;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -282,6 +287,10 @@ h3 {
     margin: 5px 0 0 30px;
 }
 
+.spotlight-github-text {
+    margin-top: 15px;
+}
+
 nav,
 nav ul,
 nav li {
@@ -316,7 +325,6 @@ h2:hover {
 
 .socials {
     font-size: 18px;
-    padding: 0 20px;
 }
 
 .fa {
