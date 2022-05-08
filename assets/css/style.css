@@ -120,12 +120,14 @@ h3 {
 .section-header h1 {
     text-align: right;
     margin: 0 15px 0 5px;
+    padding-top: 10px;
 }
 
 .section-text {
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding: 10px 0 10px 0;
 }
 
 .p1 {
@@ -265,6 +267,19 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 15px;
+}
+
+.item-container-repo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.github-text {
+    text-decoration: none;
+    color: #0005;
+    margin: 5px 0 0 30px;
 }
 
 nav,
