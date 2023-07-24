@@ -62,7 +62,7 @@ View the commit history to see the changes made across time. Expect to see new v
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Tim Carrier worked on this project with me. [![LinkedIn][linkedin-shield]][linkedin-url-tim]
+* Tim Carrier worked on this project with me. >  [![LinkedIn][linkedin-shield]][linkedin-url-tim]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
