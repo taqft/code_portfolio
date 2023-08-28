@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/code_portfolio">
+  <a href="https://github.com/taqft/code_portfolio">
     <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,11 +38,11 @@
   <p align="center">
     My code portfolio of my favorite projects!
     <br />
-    <a href="https://theresaqueryforthat.github.io/code_portfolio/">View Demo</a>
+    <a href="https://taqft.github.io/code_portfolio/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/code_portfolio/issues">Report Bug</a>
+    <a href="https://github.com/taqft/code_portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/code_portfolio/issues">Request Feature</a>
+    <a href="https://github.com/taqft/code_portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,7 +53,7 @@
 
 Here is where we began... Take a look and see how far we've come!
 
-[![Product Name Screen Shot][product-screenshot]](https://theresaqueryforthat.github.io/code_portfolio/)
+[![Product Name Screen Shot][product-screenshot]](https://taqft.github.io/code_portfolio/)
 
 View the commit history to see the changes made across time. Expect to see new versions and projects added as time goes on!
 
@@ -70,16 +70,16 @@ View the commit history to see the changes made across time. Expect to see new v
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/code_portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/code_portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/code_portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/code_portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/code_portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/code_portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/code_portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/code_portfolio/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/code_portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/theresaqueryforthat/code_portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/code_portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/code_portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/code_portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/code_portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/code_portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/code_portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/code_portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/code_portfolio/issues
+[license-shield]: https://img.shields.io/github/license/taqft/code_portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/taqft/code_portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bk09/
 [linkedin-url-tim]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
